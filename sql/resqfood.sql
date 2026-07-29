@@ -1,5 +1,4 @@
 -- ResQFood database schema
--- Import this via phpMyAdmin, or: mysql -u root -p < resqfood.sql
 
 CREATE DATABASE IF NOT EXISTS resqfood;
 USE resqfood;
@@ -51,7 +50,6 @@ CREATE TABLE IF NOT EXISTS claims (
 
 -- ---------------------------------------------------------
 -- Sample data (all sample accounts use the password: password123)
--- Safe to delete this block before your real demo/submission.
 -- ---------------------------------------------------------
 INSERT INTO users (name, email, password, role, phone, organization) VALUES
 ('Admin', 'admin@resqfood.test', '$2y$10$bl6Wkhllw5AFj7ECJDhtreuDlDWxFifexkQ3wk5I4czzm.7eHSw7i', 'admin', NULL, NULL),
