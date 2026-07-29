@@ -1,10 +1,7 @@
-# Real DB credentials — never commit these. Copy config/db.example.php to config/db.php locally/on the server.
+
 config/db.php
 
-# One-time setup script — safe to keep locally, but shouldn't linger on a public repo history by habit
-# (still delete it from your live server after first use, per README)
 
-# OS / editor junk
 .DS_Store
 Thumbs.db
 .vscode/
