@@ -1,9 +1,5 @@
 <?php
-/**
- * One-time setup script to create the admin account.
- * Delete this file once you've created your admin — it should
- * not be reachable in a real deployment.
- */
+
 require_once __DIR__ . '/includes/functions.php';
 
 $check = $conn->query("SELECT COUNT(*) AS c FROM users WHERE role = 'admin'");
